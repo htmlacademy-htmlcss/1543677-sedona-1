@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Мейрбек Аширбаев](https://up.htmlacademy.ru/htmlcss-individual/1/user/1543677).
-* Наставник: `Неизвестно`.
+- Студент: [Мейрбек Аширбаев](https://up.htmlacademy.ru/htmlcss-individual/1/user/1543677).
+- Наставник: [Артем Именин](https://github.com/aimenin).
 
 ---
 
