@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/ptsans-400.woff2) format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-weight: 700;
   font-style: bold;
-  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -167,7 +167,7 @@ body {
 
 .subscribe {
   background-color: #000;
-  background-image: url(../images/subscribe.png);
+  background-image: url("../images/subscribe.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
@@ -203,7 +203,8 @@ body {
 /* CATALOG  */
 
 .catalog-hiro {
-  background-image: url(../images/catalog-hiro.png);
+  background-color: #000;
+  background-image: url("../images/catalog-hiro.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -263,6 +264,7 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  background-color: transparent;
   border: none;
 }
 
