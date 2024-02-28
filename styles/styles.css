@@ -413,10 +413,6 @@ body {
   display: flex;
 }
 
-.page-footer {
-  outline: 2px solid #000;
-}
-
 .page-footer a {
   text-decoration: none;
   margin-top: 47px;
@@ -431,7 +427,7 @@ body {
 
 .footer-social-list {
   margin: 0;
-  margin-right: 235.5px;
+  margin-right: 230px;
   padding: 0;
   display: flex;
   align-items: center;
@@ -469,12 +465,13 @@ body {
   background-image: url("../images/catalog-hiro.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  padding: 35px 70px 70px 70px;
+  margin-bottom: 52px;
 }
 
 .inner-header {
   color: rgb(255, 255, 255);
   line-height: 23px;
-  outline: 1px solid #000;
 }
 
 .inner-header-wrapper {
@@ -487,6 +484,7 @@ body {
   font-weight: 700;
   line-height: 78px;
   margin: 0;
+  margin-bottom: 8px;
 }
 
 .breadcrumbs {
@@ -495,6 +493,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-bottom: 40px;
   display: flex;
   gap: 11px;
 }
@@ -521,9 +520,15 @@ body {
   gap: 69px;
 }
 
+.catalog-filter-right-side {
+  margin-top: auto;
+  margin-bottom: 5px;
+}
+
 .catalog-filter-right-side div {
   display: flex;
   flex-direction: column;
+  gap: 40px;
 }
 
 .catalog-filter-group {
@@ -538,16 +543,25 @@ body {
   font-weight: 700;
   line-height: 24px;
   text-transform: capitalize;
+  margin-left: -2px;
+  margin-bottom: 32px;
 }
 
 .catalog-filter-list {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .control {
   line-height: 23px;
+}
+
+.control-input {
+  margin-right: 19px;
 }
 
 .filter-button[type="submit"] {
@@ -556,6 +570,7 @@ body {
   font-weight: 700;
   line-height: 20px;
   text-align: center;
+  letter-spacing: -1.3px;
   text-transform: uppercase;
   background: rgb(130, 179, 211);
   border: none;
@@ -568,6 +583,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
+  letter-spacing: -1.3px;
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
@@ -577,11 +593,13 @@ body {
 .catalog-hotels {
   width: 1060px;
   margin: 0 auto;
-  outline: 1px solid #000;
+  margin-bottom: 60px;
 }
 
 .filter-result-wrapper {
   display: flex;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 .filter-result-text {
@@ -591,17 +609,28 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   margin: 0;
-  margin-right: 220px;
+  margin-right: 200px;
 }
 
 .control-filter {
+  min-width: 292px;
+  height: 49px;
   color: rgb(51, 51, 51);
   background-color: #fff;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   width: 252px;
-  padding: 14px 20px;
+  padding: 14px 20px 14px 20px;
   margin-right: 70px;
+}
+
+.control-filter option {
+  font-size: 18px;
+}
+
+.hotel-button-item img {
+  display: block;
+  margin: 0 auto;
 }
 
 .hotel-button-list {
@@ -613,6 +642,8 @@ body {
 }
 
 .hotel-view-button {
+  width: 48px;
+  height: 48px;
   background-color: #fff;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
@@ -626,11 +657,12 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-bottom: 40.5px;
 }
 
 .hotel-item {
   width: 300px;
-  padding: 20px 19px;
+  padding: 19px 19px;
   border: 1px solid rgb(230, 230, 230);
   border-radius: 4px;
 }
@@ -638,16 +670,24 @@ body {
 .hotel-item-wrapper {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 16px;
 }
 
-.hotel-item img {
+.hotel-item-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.hotel-item > img {
   display: block;
+  margin-bottom: 16px;
 }
 
 .hotel-item-title {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 .hotel-item span {
@@ -679,6 +719,7 @@ body {
 }
 
 .hotel-button {
+  letter-spacing: -1.3px;
   padding: 8px 18px;
 }
 
@@ -688,6 +729,7 @@ body {
 
 .star-rating {
   display: flex;
+  align-items: center;
   gap: 6px;
 }
 
@@ -707,6 +749,7 @@ body {
 .straight-line {
   width: 1060px;
   border: 1px solid #e6e6e6;
+  margin-bottom: 41px;
 }
 
 .pagination-list {
@@ -739,8 +782,8 @@ body {
 }
 
 .subscribe-catalog {
-  outline: 1px solid #000;
   text-align: center;
+  padding: 96px 258px 104px 258px;
 }
 
 .subscribe-catalog input {
