@@ -135,8 +135,9 @@ body {
   transition: all 0.5s ease-in-out;
 }
 
-.navigation-link-main{
-  transition: all 0.5s ease-in-out;
+.navigation-link-main::before{
+  content:"";
+  transition: all 1s ease-in-out;
 }
 
 .navigation-link-main:hover::before {
