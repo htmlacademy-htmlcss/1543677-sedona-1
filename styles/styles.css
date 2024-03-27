@@ -132,6 +132,11 @@ body {
   margin: 0;
   padding: 20px 16px 20px 16px;
   position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.navigation-link-main{
+  transition: all 0.5s ease-in-out;
 }
 
 .navigation-link-main:hover::before {
@@ -169,6 +174,7 @@ body {
   border-radius: 4px;
   text-align: center;
   min-width: 160px;
+  transition: all 0.5s ease-in-out;
 }
 
 .navigation-link.nav-button:hover,
@@ -429,6 +435,7 @@ body {
   border: none;
   padding: 8px 50px 8px 50px;
   border-radius: 4px;
+  transition: all 0.5s ease-in-out;
 }
 
 .subscribe {
@@ -478,6 +485,7 @@ body {
   margin: 0;
   padding: 8px 50px 8px 50px;
   border-radius: 0 4px 4px 0;
+  transition: all 0.5s ease-in-out;
 }
 
 .subscribe-button:hover {
@@ -538,6 +546,7 @@ body {
   min-height: 40px;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s ease-in-out;
 }
 
 .footer-social-link:hover svg path {
@@ -559,6 +568,7 @@ body {
   letter-spacing: 0;
   text-align: center;
   color: inherit;
+  transition: all 0.5s ease-in-out;
 }
 
 .phone-number:hover {
@@ -574,6 +584,7 @@ body {
 .footer-htmlacademy-link {
   display: block;
   margin-left: auto;
+  transition: all 0.5s ease-in-out;
 }
 
 .footer-htmlacademy-link:hover svg path {
