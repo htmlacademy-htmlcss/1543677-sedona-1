@@ -147,6 +147,7 @@ body {
   left: 16px;
   height: 3px;
   background-color: rgb(117, 97, 87);
+
 }
 
 .navigation-link-current::before {
@@ -548,6 +549,9 @@ body {
   align-items: center;
   transition: all 0.5s ease-in-out;
 }
+.footer-social-link svg path {
+  transition: all 0.5s ease-in-out;
+}
 
 .footer-social-link:hover svg path {
   fill: rgba(104, 162, 202, 1);
@@ -584,6 +588,10 @@ body {
 .footer-htmlacademy-link {
   display: block;
   margin-left: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer-htmlacademy-link svg path {
   transition: all 0.5s ease-in-out;
 }
 
@@ -664,6 +672,10 @@ body {
 
 .breadcrumb-item:last-child::after {
   content: none;
+}
+
+.breadcrumb-link, .breadcrumb-link svg path {
+  transition: all 0.5s ease-in-out;
 }
 
 .breadcrumb-link:hover svg path {
@@ -759,6 +771,7 @@ body {
   border: none;
   border-radius: 4px;
   padding: 8px 50px 8px 50px;
+  transition: all 0.5s ease-in-out;
 }
 
 .filter-button[type="submit"]:hover {
@@ -782,6 +795,7 @@ body {
   text-transform: uppercase;
   background-color: transparent;
   border: none;
+  transition: all 0.5s ease-in-out;
 }
 
 .filter-button[type="reset"]:hover {
@@ -829,6 +843,7 @@ body {
   width: 252px;
   padding: 14px 20px 14px 20px;
   margin-right: 70px;
+  transition: all 0.5s ease-in-out;
 }
 
 .control-filter:hover {
@@ -871,6 +886,7 @@ body {
   padding: 14px 12px;
   background-repeat: no-repeat;
   background-position: center;
+  transition: all 0.5s ease-in-out;
 }
 
 .hotel-view-button.active {
@@ -1009,6 +1025,7 @@ body {
   border: none;
   padding: 8px 26px;
   border-radius: 4px;
+  transition: all 0.5s ease-in-out;
 }
 
 .hotel-button {
@@ -1117,6 +1134,7 @@ color: rgba(255, 255, 255, 0.3);
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 4px;
+  transition: all 0.5s ease-in-out;
 }
 
 .pagination-link:not(.pagination-current):not(.ellipsis-button):hover{
