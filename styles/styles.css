@@ -1362,6 +1362,11 @@ color: rgba(255, 255, 255, 0.3);
   z-index: 10;
 }
 
+.modal-close {
+  display: none;
+}
+
+
 .modal {
   position: relative;
   margin: auto;
@@ -1657,13 +1662,6 @@ color: rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.3);
 
 }
-
-.modal-close {
-  display: none;
-}
-
-
-
 
 
 .modal-input-subitem {
