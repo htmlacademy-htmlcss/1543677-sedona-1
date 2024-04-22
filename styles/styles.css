@@ -1459,6 +1459,9 @@ color: rgba(255, 255, 255, 0.3);
   padding: 12px 20px 12px 20px;
   border-radius: 4px;
   background-color: rgb(242, 242, 242);
+  background-image: url(../images/modal-calendar.svg);
+  background-repeat: no-repeat;
+  background-position: right 20px center;
   border: none;
   color: rgb(0, 0, 0);
   font-family: "PT Sans", sans-serif;
@@ -1467,7 +1470,29 @@ color: rgba(255, 255, 255, 0.3);
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+  transition: all 0.5s ease-in-out;
 }
+
+.modal-input-item .arrival-date:hover,
+.modal-input-item .departure-date:hover {
+  background-color:rgba(230, 230, 230, 1);
+}
+
+.modal-input-item .arrival-date:focus,
+.modal-input-item .departure-date:focus {
+  background-color:rgba(230, 230, 230, 1);
+  border-radius: 4px;
+  outline: 3px solid rgba(131, 179, 211, 1);
+}
+
+.modal-input-item .arrival-date:active,
+.modal-input-item .departure-date:active {
+  background-color:rgba(230, 230, 230, 1);
+  border-radius: 4px;
+  outline: 3px solid rgba(0, 0, 0, 1);
+}
+
+
 
 
 
@@ -1511,10 +1536,15 @@ color: rgba(255, 255, 255, 0.3);
   text-align: center;
   margin: 0;
   border-radius: 0;
-  border: none;
+  border: 2px solid rgb(242, 242, 242);
   box-sizing: border-box;
-  padding: 14px 10px 14px 10px;
+  padding: 12px 8px 12px 8px;
   background-color: rgb(242, 242, 242);
+}
+
+.modal-input-item:nth-child(3) input:focus {
+  border-color: rgba(104, 162, 202, 1);
+  outline: none;
 }
 
 .modal-input-item:nth-child(3) .modal-button-minus, .modal-input-item:nth-child(3) .modal-button-plus {
