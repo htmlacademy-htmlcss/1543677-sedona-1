@@ -173,11 +173,12 @@ body {
   line-height: 20px;
   text-transform: uppercase;
   background-color: #756157;
-  padding: 8px 0 8px 0;
+  padding: 8px 8px 8px 8px;
   border-radius: 4px;
   text-align: center;
   min-width: 160px;
   transition: all 0.5s ease-in-out;
+  box-sizing: border-box;
 }
 
 .navigation-link.nav-button:hover,
@@ -489,6 +490,7 @@ body {
   padding: 8px 50px 8px 50px;
   border-radius: 0 4px 4px 0;
   transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .subscribe-button:hover {
@@ -952,6 +954,7 @@ body {
   border-radius: 4px;
   padding: 8px 50px 8px 50px;
   transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .filter-button[type="submit"]:hover {
@@ -976,6 +979,7 @@ body {
   background-color: transparent;
   border: none;
   transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .filter-button[type="reset"]:hover {
@@ -1221,6 +1225,7 @@ body {
 .hotel-button {
   font-family: "PT Sans", sans-serif;
   padding: 8px 20px;
+  cursor: pointer;
 }
 
 .hotel-item .hotel-chosed {
