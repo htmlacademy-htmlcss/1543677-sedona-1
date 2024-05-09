@@ -1047,7 +1047,7 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 .filter-button[type="reset"]:focus {
-  color: #fff;
+  color: #ffffff;
 }
 .filter-button[type="reset"]:active {
   color: rgba(255, 255, 255, 0.3);
@@ -1342,7 +1342,7 @@ body {
 }
 .hotel-item:not(:nth-child(2)) .hotel-button:disabled {
   background-color: #e5e5e5;
-  color: #fff;
+  color: #ffffff;
 }
 
 .hotel-chosed:hover {
