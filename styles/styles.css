@@ -83,26 +83,30 @@ body {
   flex-wrap: wrap;
 }
 
-.navigation-user {
-  margin-left: auto;
-  flex-wrap: nowrap;
+.navigation-list:first-child {
+  min-width: 340px;
 }
 
-.navigation-item-user-icon:first-child > .navigation-link {
+.navigation-user {
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.navigation-item-user-icon-1 > .navigation-link {
   background-image: url("../images/header-icons/search.svg");
   background-repeat: no-repeat;
   background-position: center;
   padding: 32px 22px;
 }
 
-.navigation-item-user-icon:nth-child(2) > .navigation-link {
+.navigation-item-user-icon-2 > .navigation-link {
   background-image: url("../images/header-icons/heart.svg");
   background-repeat: no-repeat;
   background-position: center;
   padding: 32px 22px;
 }
 
-.navigation-item-user-icon:nth-child(2) {
+.navigation-item-user-icon-2 {
   position: relative;
 }
 
@@ -169,7 +173,7 @@ body {
   background-color: #756157;
 }
 
-.navigation-item-user-icon {
+.navigation-item-user-icon-1,.navigation-item-user-icon-2 {
   transition: all 1s ease-in-out;
 }
 
@@ -177,11 +181,17 @@ body {
   padding: 22px 12px 22px 12px;
 }
 
-.navigation-item-user-icon:hover {
+.navigation-item-user-icon-1:hover {
+  background-color: #f2f2f2;
+}
+.navigation-item-user-icon-2:hover {
   background-color: #f2f2f2;
 }
 
-.navigation-item-user-icon:active {
+.navigation-item-user-icon-2:active {
+  background-color: #f2f2f2;
+}
+.navigation-item-user-icon-2:active {
   background-color: #f2f2f2;
 }
 
