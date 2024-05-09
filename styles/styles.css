@@ -169,6 +169,10 @@ body {
   background-color: #756157;
 }
 
+.navigation-item-user-icon {
+  transition: all 1s ease-in-out;
+}
+
 .navigation-item-user-icon .navigation-link {
   padding: 22px 12px 22px 12px;
 }
@@ -400,7 +404,7 @@ body {
   row-gap: 30px;
 }
 
-.service-item:nth-child(2) {
+.service-item:nth-child(3n + 2) {
   background-color: #ffffff;
 }
 
@@ -1117,7 +1121,8 @@ body {
   list-style: none;
   display: flex;
   gap: 8px;
-  max-width: 162px;
+  min-width: 160px;
+  max-width: 161px;
   flex-wrap: wrap;
 }
 
