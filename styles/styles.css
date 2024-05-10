@@ -90,6 +90,7 @@ body {
 .navigation-user {
   margin-left: auto;
   flex-wrap: wrap;
+  min-width: 268px;
 }
 
 .navigation-item-user-icon-1 > .navigation-link {
@@ -173,7 +174,8 @@ body {
   background-color: #756157;
 }
 
-.navigation-item-user-icon-1,.navigation-item-user-icon-2 {
+.navigation-item-user-icon-1,
+.navigation-item-user-icon-2 {
   transition: all 1s ease-in-out;
 }
 
@@ -235,7 +237,7 @@ body {
   text-align: center;
   background-image: url("../images/hero-img.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-color: #f2f2f2;
   padding-top: 51px;
   padding-bottom: 80px;
@@ -248,7 +250,7 @@ body {
   content: "";
   display: block;
   position: absolute;
-  bottom: -1.2px;
+  bottom: -3.8px;
   left: 0;
   width: 100%;
   height: 60px;
@@ -1025,8 +1027,8 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 .filter-button[type="submit"]:disabled {
-  background-color: #82b3d3;
-  color: rgba(255, 255, 255, 0.3);
+  background-color: #e5e5e5;
+  color: #fff;
 }
 
 .filter-button[type="reset"] {
@@ -1243,14 +1245,6 @@ body {
   list-style: none;
 }
 
-.star-rating-item {
-  width: 18px;
-  height: 17px;
-  background-image: url(../images/star.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .hotel-item .hotel-rating {
   grid-column: 3/4;
   grid-row: 6/7;
@@ -1312,7 +1306,24 @@ body {
 .star-rating {
   display: flex;
   align-items: center;
-  gap: 6px;
+  background-image: url("../images/star.svg");
+  background-position: center;
+  background-repeat: space;
+}
+
+.star-rating-4 {
+  width: 89px;
+  height: 17px;
+}
+
+.star-rating-3 {
+  width: 66px;
+  height: 17px;
+}
+
+.star-rating-2 {
+  width: 42px;
+  height: 17px;
 }
 
 .hotel-button-link:hover {
