@@ -596,6 +596,7 @@ body {
 
 .footer-social-list {
   min-width: 142px;
+  max-width: 145px;
   text-decoration: none;
   list-style: none;
   padding: 0;
